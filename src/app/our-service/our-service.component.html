@@ -1,0 +1,8 @@
+<hr>
+<h1> Our Service</h1>
+<div *ngFor='let data of OurService'>
+  <li>{{ data.s_id }}</li>
+  <li>{{ data.s_title }}</li>
+  <li>{{ data.s_content }}</li>
+  <li><img [src]="data.s_image" /></li>
+</div>
